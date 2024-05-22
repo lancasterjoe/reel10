@@ -1,7 +1,7 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 100) {
         reel = randint(1, 9)
-        basic.pause(500)
+        basic.pause(100)
         if (reel == 1) {
             basic.showIcon(IconNames.Happy)
             radio.sendValue("A", 1)
